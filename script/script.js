@@ -6,3 +6,10 @@ function loading () {
         $('#myModal').modal('hide'); 
     },2500)
 }
+
+
+//Close MAP
+
+ $('#close').click(()=>{
+    $('#modalMap').modal('hide');
+})
