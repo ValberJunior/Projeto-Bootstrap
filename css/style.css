@@ -30,7 +30,6 @@ header{
 }
 
 .bg-svg{
-    fill: white;
     width: 100%;
     border:none;
 }
@@ -41,7 +40,6 @@ header{
     height: 500px;
 }
 
-footer{
-    height: 200px;
+.bg2{
     background-color: #0099ff;
 }
