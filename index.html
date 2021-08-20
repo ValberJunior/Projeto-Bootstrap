@@ -109,7 +109,7 @@
       <p class='fw-normal'>Realize seu sonho de cursar Medicina, Engenharia, Arquitetura, Odontologia, Medicina Veterinária, entre outros cursos, sem precisar prestar vestibular, em faculdades públicas de excelente qualidade!</p>
      </div>
 
-      <div class='d-flex w-100 justify-content-end'>
+      <div class='d-flex w-100 justify-content-end p-3'>
       <a href='https://api.whatsapp.com/message/TWL6D4PXQ46BB1' class='btn btn-primary btn-lg mt-3 rounded-pill p-3' role='button' data-bs-toggle='button' style='width: 200px;'>SAIBA MAIS <i class="fas fa-arrow-right"></i></a>
      </div>
     </div>
@@ -171,24 +171,38 @@
 </section>
 
 <!--About-->
-<section class='d-flex justify-content-center container-md p-3 mt-3' id='about'> 
-    <div class='text-center'>
 
-      <img src='./assets/icone.png' type='image/png' alt='Alfa Assessoria Estudantil' class='float-sm-start  p-4 mx-auto' width="350px">
-
-        <div class='card-body mt-4'>
-          <h2 class='text-primary display-5 fw-normal pb-3 mt-2 title'>Quem Somos Nós?</h2>
-          <p class='fw-normal fs-6'> Nós, da <span class='text-primary fw-bolder'>Alfa Assessoria Estudantil</span>, cuidamos de toda a questão burocrática em relação a documentação, trâmites da faculdade, matrícula, trâmites de identidade argentina, residência, orientação , entre outros. Somos compostos também por estudantes e diferentemente de muitas assessorias que visam o lucro com altas taxas e assuntos rasos, buscamos a excelência de atendimento por um preço menor e justo, facilitando a todos a oportunidade de realizar o sonho de cursar medicina!
-             E não só Medicina mas também Odontologia, Engenharia, Arquitetura, Medicina Veterinária e muitas outras opções!</p>
+<section class='d-grid justify-content-center container-md p-3 mt-3'>
   
-           <p class='fw-bold fs-5'> Comece hoje mesmo uma nova etapa para sua vida!</p>
-        </div>
-    </div>  
+  <div class='row'>
+
+    <div class='col-md-4 g-0'>
+      <div class='d-flex w-100 justify-content-center'>
+      <img src='./assets/icone.png' type='image/png' alt='Alfa Assessoria Estudantil' class='p-5' style='width: 70%;'>
+    </div>
+  </div>
+
+    <div class='col-md-8  g-0 mt-5'>
+      
+      <h2 class='text-dark display-6 fw-normal pb-4 text-center title'>Quem Somos Nós?</h2>
+     
+      <div class='justify-content-center p-4'>
+        
+        Nós, da <span class='text-primary fw-bolder'>Alfa Assessoria Estudantil</span>, cuidamos de toda a questão burocrática em relação a documentação, trâmites da faculdade, matrícula, trâmites de identidade argentina, residência, orientação , entre outros. Somos compostos também por estudantes e diferentemente de muitas assessorias que visam o lucro com altas taxas e assuntos rasos, buscamos a excelência de atendimento por um preço menor e justo, facilitando a todos a oportunidade de realizar o sonho de cursar medicina!
+        E não só Medicina mas também Odontologia, Engenharia, Arquitetura, Medicina Veterinária e muitas outras opções!</p>
+
+       <p class='fw-bold fs-5'> Comece hoje mesmo uma nova etapa para sua vida!</p> 
+      </div>
+    </div>
+
+  
+  </div>  
 </section>
+
 
 <!--Accordions/ FAQ-->
 <section class='pt-5 container-md'> 
-  <div id='accordion'>
+  <div id='accordion' class='mx-auto' style='width: 80%;'>
 
     <div class='card mb-2'>
       <div class='card-header'>
@@ -282,6 +296,7 @@
 
 <!--contacts-->
 <section id='contact' class='bg-light mt-5 pt-5'>  
+  
   <div class='container-sm'>
 
     <h2 class='text-primary fw-normal pb-5 text-center  display-5 title'>Entre em Contato</h2>
@@ -295,7 +310,7 @@
       <div class="form-floating">
       <div class="mb-3">
         <label for="name" class="form-label title">Digite seu nome</label>
-        <input type="text" class="form-control" id="name">
+        <input type="text" class="form-control border-bottom border-rounded border-2 border-primary" id="name">
       </div>
       </div>
     </div> 
@@ -304,7 +319,7 @@
       <div class="form-floating">
     <div class="mb-3">
       <label for="email" class="form-label title">Digite seu Email</label>
-      <input type="email" class="form-control" id="name">
+      <input type="email" class="form-control border-rounded border-2 border-primary" id="name" >
       </div>
       </div>
     </div>
@@ -313,7 +328,7 @@
       <div class="form-floating">
   <div class="mb-3">
     <label for="course" class="form-label title">Selecione o curso</label>
-    <select class="form-select">
+    <select class="form-select border-rounded border-2 border-primary">
       <option selected class='title'>Selecione o curso</option>
       <option value="AQ" class='title'>Arquitetura</option>
       <option value="DT" class='title'>Direito</option>
@@ -332,16 +347,16 @@
 
     <div class="mb-3">
       <label for="name" class="form-label title">Digite o Assunto</label>
-      <input type="text" class="form-control" id="name">
+      <input type="text" class="form-control border-rounded border-2 border-primary" id="name">
     </div>
 
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label title">Escreva sua mensagem</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      <label for="message" class="form-label title">Escreva sua mensagem</label>
+      <textarea class="form-control border-rounded border-2 border-primary" id="message" rows="5"></textarea>
     </div>
 
     <div class='w-100 d-flex justify-content-end'>
-    <button type="submit" class="btn btn-primary mb-3 p-3 rounded-pill title" >Enviar Mensagem  <i class="far fa-envelope"></i></button>
+    <button type="submit" class="btn btn-primary mb-3 p-3 rounded-rounded title" >Enviar Mensagem  <i class="far fa-envelope"></i></button>
     </div>
 
 
