@@ -4,5 +4,5 @@ function loading () {
     $('#myModal').modal('show');
     setTimeout(()=>{
         $('#myModal').modal('hide'); 
-    },2000)
+    },2500)
 }
