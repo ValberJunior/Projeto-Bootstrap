@@ -1,9 +1,10 @@
 body{
-    background-image:url('../assets/background.jpg');
-    background-size: cover;
-    background-attachment: fixed;  
+ 
+background-image: url('../assets/background.jpg');
+background-size: cover;
+background-attachment: fixed;
 
-    font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
 }
 
 header{
