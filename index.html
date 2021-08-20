@@ -37,9 +37,6 @@
 </div>
 
 
-
-
-
 <!--Header-->
 <header id='home'>
     <nav class='navbar navbar-expand-sm navbar-light bg-light'>
@@ -387,10 +384,6 @@
 <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 39.42518189665803,132.87372055740536 78.85036379331606,132.7474411148107 143,137 C 207.14963620668394,141.2525588851893 296.02372672339385,149.88395609816254 347,143 C 397.97627327660615,136.11604390183746 411.05472931310885,113.71673449253916 452,119 C 492.94527068689115,124.28326550746084 561.7573560241707,157.24910593168084 624,170 C 686.2426439758293,182.75089406831916 741.9158465902084,175.28684178073743 796,175 C 850.0841534097916,174.71315821926257 902.5792576149955,181.60352694536934 951,167 C 999.4207423850045,152.39647305463066 1043.767122949809,116.2990504377852 1100,114 C 1156.232877050191,111.7009495622148 1224.3522505857688,143.20027130348993 1283,152 C 1341.6477494142312,160.79972869651007 1390.8238747071155,146.89986434825505 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#0099ff88" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,400 C 0,400 0,266 0,266 C 39.647749414231114,274.8895301516833 79.29549882846223,283.77906030336663 134,281 C 188.70450117153777,278.22093969663337 258.46575410038224,263.7732889382168 323,259 C 387.53424589961776,254.2267110617832 446.8414847700087,259.12778394376613 499,258 C 551.1585152299913,256.87221605623387 596.1683068195831,249.71557528671852 637,241 C 677.8316931804169,232.28442471328148 714.4852879516586,222.00991490935996 771,241 C 827.5147120483414,259.99008509064004 903.8905413737823,308.2447650758416 966,316 C 1028.1094586262177,323.7552349241584 1075.9525465532126,291.0110247872734 1122,271 C 1168.0474534467874,250.98897521272656 1212.2992724133678,243.71113577506472 1265,245 C 1317.7007275866322,246.28886422493528 1378.850363793316,256.14443211246765 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#0099ffff" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
 </section>
 
-<!--Map-->
-<section  class='bg-primary'>
-
-</section>
 
   <!--List Group-->
 <section class='bg2 d-grid pt-5 pb-5' style='width: 100%;'>  
@@ -411,7 +404,7 @@
       <div class='col-md-4'>
         <div class='list-group list-group-flush pb-5'>
           <p class='list-group-item bg2 text-light border-0'>Mapa</p>
-          <a href='#' class='list-group-item bg2 text-light border-0'><i class="fas fa-map-marked-alt"></i> Localização</a>
+          <a href='#' type='button' data-bs-toggle='modal' data-bs-target='#modalMap' class='list-group-item bg2 text-light border-0'><i class="fas fa-map-marked-alt"></i> Localização</a>
         </div>
       </div>
 
@@ -441,6 +434,24 @@
       <span class='fs-5 pt-2 pb-2 d-flex justify-content-center align-items-center text-light mt-2'><i class="far fa-copyright me-2"></i>  Todos Os Direitos Reservados 2021</span>
     </div>
   </footer>
+
+
+  <!--Map-->
+
+   <div class='modal fade' id='modalMap'>
+
+        <div  class='bg-light d-flex align-items-center justify-content-center' >
+          <div class=' modal-dialog d-flex flex-column align-items-center justify-content-center'>
+
+          <h2>Mapa</h2>
+
+          <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Castellanos 588&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="500px" height="500px"></iframe>
+
+
+          </div>
+        </div>
+   </div>
+
 
 
     <!--JS Bootstrap-->
