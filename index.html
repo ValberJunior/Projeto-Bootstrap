@@ -17,6 +17,10 @@
      <!--Icon--> <script src='https://kit.fontawesome.com/d2883e7411.js' crossorigin='anonymous'></script>
 
      <!--Font--><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+
+     <!--AOS Animation--> <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     
+    <!--Aos animation--> <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -113,13 +117,14 @@
   <div class='row'>
 
     <div class='col-md-6 g-0'>
-      <div class='d-flex w-100 justify-content-center'>
-      <img src='./assets/image1.png' type='image/png' alt='Estudante de Medicina' class='float-sm-start' style='width: 70%;'>
-    </div>
+      <div class='d-flex w-100 justify-content-center' >
+          <img src='./assets/image1.png' type='image/png' alt='Estudante de Medicina'  data-aos="fade-right" class='float-sm-start' style='width: 70%;'>
+      </div>
   </div>
 
     <div class='col-md-6  g-0 mt-5'>
       
+      <div data-aos="fade-up">
       <h2 class='text-dark display-6 fw-normal pb-4 text-center title'>Estude Nas Melhores<br>Faculdades Da Argentina!</h2>
      
       <div class='d-flex w-100 justify-content-center p-3'>
@@ -128,7 +133,8 @@
 
       <div class='d-flex w-100 justify-content-end p-3'>
       <a href='https://api.whatsapp.com/message/TWL6D4PXQ46BB1' class='btn btn-primary btn-lg mt-3 rounded-pill p-3' role='button' data-bs-toggle='button' style='width: 200px;'>SAIBA MAIS <i class="fas fa-arrow-right"></i></a>
-     </div>
+      </div>
+    </div>
     </div>
 
   
@@ -137,15 +143,17 @@
 
  <!--Plans-->
 <section class='plans' id='plans'>
+  <div data-aos="fade-up-right">
   <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#0693e388"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 205.71428571428572,171 822.8571428571429,152 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 200)"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#0693e3ff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 205.71428571428572,342 822.8571428571429,304 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 200)"></path></svg>
+  </div>
 
-  <h2 class='display-4 text-center text-light fw-normal mb-5 title'>Nossos Pacotes</h2>
+  <h2 data-aos="zoom-in" class='display-4 text-center text-light fw-normal mb-5 title'>Nossos Pacotes</h2>
 <div class='container-md'>
 
   <div class='row d-flex justify-content-center pt-5'>
 
     <div class='col-md-4'>
-      <div class='card mb-5 p-3 rounded'>
+      <div class='card mb-5 p-3 rounded' data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class='card-header'><h3 class='card-title text-center fw-bolder title'>PACOTE SIMPLES</h3></div>
       
         <div class='card-body p-3'>
@@ -163,7 +171,7 @@
     </div>
 
     <div class='col-md-4'>
-      <div class='card mb-5 p-3 rounded'>
+      <div class='card mb-5 p-3 rounded'data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
         <div class='card-header'><h3 class='card-title text-center fw-bolder title'>PACOTE PREMIUM</h3></div>
       
         <div class='card-body p-3'>
@@ -184,7 +192,10 @@
   </div>
   
 </div>
+
+<div data-aos="fade-up-left">
 <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#002bdc88"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 205.71428571428572,171 822.8571428571429,152 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 205.71428571428572,342 822.8571428571429,304 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+</div>
 </section>
 
 <!--About-->
@@ -195,15 +206,15 @@
 
     <div class='col-md-4 g-0'>
       <div class='d-flex w-100 justify-content-center'>
-      <img src='./assets/icone.png' type='image/png' alt='Alfa Assessoria Estudantil' class='p-5' style='width: 70%;'>
+      <img src='./assets/icone.png' type='image/png' alt='Alfa Assessoria Estudantil' class='p-5' style='width: 70%;' data-aos="zoom-in-down">
     </div>
   </div>
 
     <div class='col-md-8  g-0 mt-5'>
       
-      <h2 class='text-dark display-6 fw-normal pb-4 text-center title'>Quem Somos Nós?</h2>
+      <h2 class='text-dark display-6 fw-normal pb-4 text-center title' data-aos="zoom-in-up">Quem Somos Nós?</h2>
      
-      <div class='justify-content-center p-4'>
+      <div class='justify-content-center p-4' data-aos="zoom-out-up">>
         
         Nós, da <span class='fw-bolder fs-6'>Alfa Assessoria Estudantil</span>, cuidamos de toda a questão burocrática em relação a documentação, trâmites da faculdade, matrícula, trâmites de identidade argentina, residência, orientação , entre outros. Somos compostos também por estudantes e diferentemente de muitas assessorias que visam o lucro com altas taxas e assuntos rasos, buscamos a excelência de atendimento por um preço menor e justo, facilitando a todos a oportunidade de realizar o sonho de cursar medicina!
         E não só Medicina mas também Odontologia, Engenharia, Arquitetura, Medicina Veterinária e muitas outras opções!</p>
@@ -219,7 +230,7 @@
 
 <!--Accordions/ FAQ-->
 <section class='pt-5 container-md'> 
-  <div id='accordion' class='mx-auto' style='width: 80%;'>
+  <div id='accordion' class='mx-auto' style='width: 80%;' data-aos="zoom-out-left">>
 
     <div class='card mb-2'>
       <div class='card-header'>
@@ -310,7 +321,7 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
       </div>
       <div id='resp7' class='collapse' data-bs-parent='#accordion'>
        <div class='card-body text-secondary'> <p>A Alfa Assessoria Estudantil Aceita as seguintes formas de pagamento:</p>
-        <p> 1- Pagamentos a vista via PIX, TED ou DOC. (Não aceitamos depósito via envelope). </p>
+        <p> 1- Pagamentos a vista via PIX, TED ou DOC. (Não aceitamos depósito via envelope) </p>
         <p> 2- Aceitamos cartão de crédito, Parcelando em até 12 vezes (Com a taxa da operadora).</p>
         <p> 3- Temos também o boleto parcelado. (Com acréscimo de 15%).</p></div>
       </div>
@@ -343,9 +354,9 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
   
   <div class='container-sm'>
 
-    <h2 class='text-dark fw-normal pb-5 text-center  display-5 title'>Entre em Contato</h2>
+    <h2 class='text-dark fw-normal pb-5 text-center  display-5 title' data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">Entre em Contato</h2>
 
-  <form style='width: 80%;' class='mx-auto'>
+  <form style='width: 80%;' class='mx-auto' data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">
 
 
     <div class="row g-3">
@@ -415,7 +426,8 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
   <!--List Group-->
 <section class='bg2 d-grid pt-5 pb-5' style='width: 100%;'>  
 
-  <div class='d-flex justify-content-center' >
+  <div class='d-flex justify-content-center' data-aos="fade-up"
+  data-aos-anchor-placement="bottom-bottom" >
   
     <div class='row text-center' style='width: 80%;'>
           
@@ -450,7 +462,8 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
 
   <!--Footer-->
   <footer class='w-100 bg2 pt-3'>
-    <div id='icons' class='d-flex justify-content-center align-items-center'>
+    <div id='icons' class='d-flex justify-content-center align-items-center' data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <a href='https://www.facebook.com/Alfaassessoriaestudantil' class='text-white fs-1 p-2'><i class="fab fa-facebook-square"></i></a>
       <a href='https://www.instagram.com/alfaestudantil' class='text-white fs-1 p-2'><i class="fab fa-instagram"></i></a>
       <a href='mailto:alfaassessoriaestudantil@gmail.com' class='text-white fs-1 p-2'><i class="far fa-envelope"></i></a>
@@ -493,6 +506,6 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
    
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 
-   <script src='./script/script.js'></script>    
+   <script src='./script/script.js'></script>   
 </body>
 </html>

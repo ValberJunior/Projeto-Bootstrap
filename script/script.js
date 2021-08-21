@@ -1,3 +1,6 @@
+//init. AOS
+AOS.init();
+
 $(document).ready(loading);
 
 function loading () {
