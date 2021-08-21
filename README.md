@@ -1,6 +1,6 @@
 # Projeto-Bootstrap
 
-# upgrade da página que fiz para o projeto HTML do curso ProgramadorBR.
+# Upgrade da página que fiz para o projeto HTML do curso ProgramadorBR.
 
 ## Passei a página para o Bootstrap5 e otimizei alguns elementos da página.
 
