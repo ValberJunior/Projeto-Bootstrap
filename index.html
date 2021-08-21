@@ -359,7 +359,7 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
 
     <h2 class='text-dark fw-normal pb-5 text-center  display-5 title' data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">Entre em Contato</h2>
 
-  <form style='width: 80%;' class='mx-auto' data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">
+  <form style='width: 80%;' class='mx-auto' data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine" action="https://app.us5.list-manage.com/subscribe/post?u=2207f3452b36077346e47a7bd&amp;id=ecd5fe3ea4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
 
     <div class="row g-3">
@@ -368,7 +368,7 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
       <div class="form-floating">
       <div class="mb-3">
         <label for="name" class="form-label title">Digite seu nome</label>
-        <input type="text" class="form-control border-bottom border-rounded border-2 border-info" id="name">
+        <input type="text" name="NAME" class="form-control border-bottom border-rounded border-2 border-info" id="name">
       </div>
       </div>
     </div> 
@@ -377,7 +377,7 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
       <div class="form-floating">
     <div class="mb-3">
       <label for="email" class="form-label title">Digite seu Email</label>
-      <input type="email" class="form-control border-rounded border-2 border-info" id="name" >
+      <input type="email" name="EMAIL" class="form-control border-rounded border-2 border-info" id="name" >
       </div>
       </div>
     </div>
@@ -386,7 +386,7 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
       <div class="form-floating">
   <div class="mb-3">
     <label for="course" class="form-label title">Selecione o curso</label>
-    <select class="form-select border-rounded border-2 border-info">
+    <select name='COURSE' class="form-select border-rounded border-2 border-info">
       <option selected class='title'>Selecione o curso</option>
       <option value="AQ" class='title'>Arquitetura</option>
       <option value="DT" class='title'>Direito</option>
@@ -405,19 +405,21 @@ a abordagem inclui a apresentação de um problema para um pequeno grupo, que in
 
     <div class="mb-3">
       <label for="name" class="form-label title">Digite o Assunto</label>
-      <input type="text" class="form-control border-rounded border-2 border-info" id="name">
+      <input type="text" name="SUBJECT" class="form-control border-rounded border-2 border-info" id="name">
     </div>
 
     <div class="mb-3">
       <label for="message" class="form-label title">Escreva sua mensagem</label>
-      <textarea class="form-control border-rounded border-2 border-info" id="message" rows="5"></textarea>
+      <textarea name="MESSAGE" class="form-control border-rounded border-2 border-info" id="message" rows="5"></textarea>
     </div>
+
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2207f3452b36077346e47a7bd_ecd5fe3ea4" tabindex="-1" value=""></div>
+    
 
     <div class='w-100 d-flex justify-content-end'>
-    <button type="submit" class="btn btn-primary mb-3 p-3 ps-4 pe-4 rounded-pill title" >Enviar Mensagem  <i class="far fa-envelope"></i></button>
+    <button type="submit" name="subscribe" class="btn btn-primary mb-3 p-3 ps-4 pe-4 rounded-pill title" >Enviar Mensagem  <i class="far fa-envelope"></i></button>
     </div>
-
-
 
   </form>
 
