@@ -34,8 +34,9 @@ header{
 }
 
 .textc{
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: #cdcdcd;
+
 }
 
 
