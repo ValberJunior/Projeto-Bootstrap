@@ -33,6 +33,12 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
+.textc{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #cdcdcd;
+}
+
+
 .plans{
     background-image:url('../assets/background2.jpg');
     background-size: cover;
