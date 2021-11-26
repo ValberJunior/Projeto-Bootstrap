@@ -30,9 +30,6 @@ body::-webkit-scrollbar {
 
 
 
-body>*{
-    scroll-snap-align: start;
-}
 
 .bgmodal{
     background-image: linear-gradient(#2538a0, white);
